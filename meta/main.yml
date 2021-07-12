@@ -1,0 +1,43 @@
+---
+dependencies: []
+galaxy_info:
+  author: Terry Howe
+  description: Ansible module for Hashicorp Vault
+  galaxy_tags:
+    - hashicorp
+    - vault
+    - secrets
+    - security
+    - collection
+    - module
+  repository: https://github.com/TerryHowe/ansible-modules-hashivault.git
+  license: MIT
+  min_ansible_version: "2.5.0"
+  version: 4.5.2
+  platforms:
+    - name: GenericLinux
+      versions:
+        - any
+
+    - name: macOS
+      versions:
+        - Sierra
+
+    - name: MacOSX
+      versions:
+        - 10.7
+        - 10.8
+        - 10.9
+        - "10.10"
+        - 10.11
+        - 10.12
+
+    - name: Windows
+      versions:
+        - 2012R2
+
+  cloud_platforms:
+    - Azure
+
+
+
